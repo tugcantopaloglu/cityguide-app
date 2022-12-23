@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Şehir Gezintisi</string>
+    <string name="copyrights">Copyrights © 2022 Şehir Gezintisi</string>
+
+
+    <!-- Titles -->
+    <string name="first_slide_title">Konumunuzu aratın</string>
+    <string name="second_slide_title">Nereye gideceğinizi bilmiyor musunuz?</string>
+    <string name="third_slide_title">Zaman çizelgenizi bilin</string>
+
+
+    <!-- Description -->
+    <string name="first_slide_desc">Yakınınızda olan veya bir şehirde bulunan bir lokasyonu arayın.</string>
+    <string name="second_slide_desc">Sorun değil. Yakındaki tüm restoranların, otellerin vb. ayrıntılarını sadece bir tıklama ile sağlıyoruz.</string>
+    <string name="third_slide_desc">Konum geçmişinizi kontrol edebilirsiniz. İstediğiniz zaman silebilirsiniz.</string>
+
+    <!-- Buttons -->
+    <string name="skip_btn">Geç</string>
+    <string name="next_btn">Devam et</string>
+    <string name="lets_get_started">Hadi başlayalım!</string>
+
+
+    <!-- Strings for on Login Screen -->
+    <string name="close">Kapat</string>
+
+    <!-- Categories -->
+    <string name="lodging">Oteller</string>
+    <string name="restaurants">Restoranlar</string>
+    <string name="atm">ATM</string>
+    <string name="tourist_attraction">Önemli Yerler</string>
+    <string name="airports">Eğitim</string>
+
+    <!-- Titles and desc -->
+    <string name="search">Ara…</string>
+
+
+    <!-- Strings for on Main Menu -->
+    <string name="nav_explore">Keşfet</string>
+    <string name="nav_search">Ara</string>
+    <string name="nav_search_on_map">Harita</string>
+    <string name="profile">Profil</string>
+    <string name="logout">Çıkış</string>
+    <string name="share">Paylaş</string>
+    <string name="rate_us">Puanla</string>
+    <string name="slogan_name">Turistler için rehber</string>
+
+    <!-- Strings for on Login Screen -->
+    <string name="welcome_message">Şehir Gezintisi\'ne Hoş Geldiniz</string>
+    <string name="email">Mail</string>
+    <string name="password">Şifre</string>
+    <string name="login">Giriş Yap</string>
+    <string name="username">Kullanıcı adı</string>
+    <string name="sign_up">Kayıt Ol</string>
+    <string name="forget_password">Şifremi unuttum</string>
+
+    <!-- Search Fragment -->
+    <string name="search_a_place">Bir yer ara</string>
+    <string name="suggestions">Yer</string>
+
+    <string name="call_not_available">Uygun değil</string>
+    <string name="travel_default_mode">Yürüyor</string>
+
+
+</resources>
