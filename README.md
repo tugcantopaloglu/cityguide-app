@@ -1,4 +1,4 @@
-# Location Guide
+# City Guide App
 A simple android app to help tourist find nearby places like restaurants, hotels, ATMs and tourist attractions.
 
 ### Description
