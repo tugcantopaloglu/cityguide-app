@@ -30,7 +30,9 @@
                     android:id="@+id/dest_name"
                     android:layout_width="256dp"
                     android:layout_height="wrap_content"
-                    android:text="Corner Cafe"
+                    android:text="Köşe Kafe"
+                    android:fontFamily="@font/cascadia_code"
+                    app:fontFamily="@font/cascadia_code"
                     android:textColor="@color/white"
                     android:textSize="18sp" />
 
@@ -40,8 +42,10 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentTop="true"
-                    android:text="Walking"
+                    android:text="Yürüyüş"
                     android:visibility="invisible"
+                    android:fontFamily="@font/cascadia_code"
+                    app:fontFamily="@font/cascadia_code"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
 
@@ -52,7 +56,9 @@
                     android:layout_alignParentEnd="true"
                     android:layout_marginTop="20dp"
                     android:layout_alignParentBottom="true"
-                    android:text="25 min"
+                    android:text="25 dakika"
+                    android:fontFamily="@font/cascadia_code"
+                    app:fontFamily="@font/cascadia_code"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
 
@@ -76,7 +82,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_marginStart="20dp"
-                    android:text="3794 Pretty View Lane"
+                    android:text="35100 Bornova"
+                    android:fontFamily="@font/cascadia_code"
+                    app:fontFamily="@font/cascadia_code"
                     android:textSize="14sp"/>
 
 
@@ -100,7 +108,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_marginStart="20dp"
-                    android:text="Closed"
+                    android:text="Kapalı"
+                    android:fontFamily="@font/cascadia_code"
+                    app:fontFamily="@font/cascadia_code"
                     android:textSize="14sp"/>
 
                 <TextView
@@ -109,7 +119,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_marginStart="10dp"
-                    android:text="Opens 9 AM"
+                    android:text="9'da Açılıyor"
+                    android:fontFamily="@font/cascadia_code"
+                    app:fontFamily="@font/cascadia_code"
                     android:visibility="invisible"
                     android:textSize="14sp"/>
 
@@ -134,7 +146,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_marginStart="20dp"
-                    android:text="(+91) 721489571"
+                    android:text="(+90) 5351235343"
+                    android:fontFamily="@font/cascadia_code"
+                    app:fontFamily="@font/cascadia_code"
                     android:textSize="14sp"/>
 
             </LinearLayout>
@@ -155,6 +169,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="4.5"
+                    android:fontFamily="@font/cascadia_code"
+                    app:fontFamily="@font/cascadia_code"
                     android:layout_centerVertical="true"
                     android:textSize="14sp"
                     android:textColor="@color/blue_dark"/>
@@ -178,7 +194,9 @@
                     android:id="@+id/dest_total_ratings"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="275 reviews"
+                    android:text="275 inceleme"
+                    android:fontFamily="@font/cascadia_code"
+                    app:fontFamily="@font/cascadia_code"
                     android:textSize="14sp"
                     android:layout_centerVertical="true"
                     android:layout_marginStart="10dp"
@@ -197,7 +215,9 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Travel Mode"
+                android:text="Seyahat Modu"
+                android:fontFamily="@font/cascadia_code"
+                app:fontFamily="@font/cascadia_code"
                 android:padding="10dp"
                 android:visibility="visible"
                 android:textSize="16sp"
@@ -237,7 +257,9 @@
                         android:layout_marginStart="5dp"
                         android:layout_toEndOf="@+id/car_icon"
                         android:textColor="@color/blue_dark"
-                        android:text="15 min"
+                        android:text="15 dakika"
+                        android:fontFamily="@font/cascadia_code"
+                        app:fontFamily="@font/cascadia_code"
                         android:textSize="14sp"/>
 
                 </RelativeLayout>
@@ -271,7 +293,9 @@
                         android:layout_centerVertical="true"
                         android:layout_marginStart="5dp"
                         android:layout_toEndOf="@+id/walk_icon"
-                        android:text="30 min"
+                        android:text="30 dakika"
+                        android:fontFamily="@font/cascadia_code"
+                        app:fontFamily="@font/cascadia_code"
                         android:textColor="@color/blue_dark"
                         android:textSize="14sp"/>
 
@@ -306,7 +330,9 @@
                         android:layout_marginStart="5dp"
                         android:layout_toEndOf="@+id/train_icon"
                         android:textColor="@color/blue_dark"
-                        android:text="10 min"
+                        android:text="10 dakika"
+                        android:fontFamily="@font/cascadia_code"
+                        app:fontFamily="@font/cascadia_code"
                         android:textSize="14sp"/>
 
                 </RelativeLayout>

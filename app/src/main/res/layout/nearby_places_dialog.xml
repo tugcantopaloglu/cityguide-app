@@ -46,6 +46,8 @@
                 android:layout_marginStart="10dp"
                 android:layout_toEndOf="@+id/est_icon"
                 android:text="@string/restaurants"
+                android:fontFamily="@font/cascadia_code"
+                app:fontFamily="@font/cascadia_code"
                 android:textColor="@color/black"
                 android:textSize="30sp"
                 app:layout_constraintStart_toStartOf="parent"

@@ -23,7 +23,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     TabLayout tabLayout;
     ViewPager2 viewPager;
-    RelativeLayout layout1, layout2, layout3;
+    RelativeLayout layout2;
     ImageView google;
     Button close;
 
@@ -40,9 +40,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_login);
 
-        layout1 = findViewById(R.id.fb_layout);
         layout2 = findViewById(R.id.google_layout);
-        layout3 = findViewById(R.id.twi_layout);
 
         tabLayout = findViewById(R.id.tab_layout);
         viewPager = findViewById(R.id.view_pager);
@@ -55,9 +53,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
         //animation
         fab_anim = AnimationUtils.loadAnimation(this, R.anim.social_media_fab_anim);
-        layout1.setAnimation(fab_anim);
         layout2.setAnimation(fab_anim);
-        layout3.setAnimation(fab_anim);
         tabLayout.setAnimation(fab_anim);
 
         //adapter

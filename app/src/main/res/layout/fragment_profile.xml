@@ -28,6 +28,8 @@
             android:textSize="24sp"
             android:textColor="@color/black"
             android:text="@string/profile"
+            android:fontFamily="@font/cascadia_code"
+            app:fontFamily="@font/cascadia_code"
             android:layout_centerHorizontal="true"/>
 
         <LinearLayout

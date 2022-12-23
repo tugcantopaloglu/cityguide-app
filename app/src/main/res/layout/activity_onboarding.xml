@@ -26,6 +26,8 @@
         app:layout_constraintTop_toTopOf="parent"
         android:text="@string/skip_btn"
         android:textColor="@color/black"
+        android:fontFamily="@font/cascadia_code"
+        app:fontFamily="@font/cascadia_code"
         android:background="@android:color/transparent"
         android:drawableEnd="@drawable/skip_icon"
         android:onClick="onBoardingSkipped"
@@ -45,6 +47,8 @@
             android:layout_height="wrap_content"
             android:visibility="invisible"
             android:text="@string/lets_get_started"
+            android:fontFamily="@font/cascadia_code"
+            app:fontFamily="@font/cascadia_code"
             android:onClick="startClicked"/>
 
         <LinearLayout
@@ -62,6 +66,8 @@
             android:layout_alignParentBottom="true"
             android:background="@android:color/transparent"
             android:text="@string/next_btn"
+            android:fontFamily="@font/cascadia_code"
+            app:fontFamily="@font/cascadia_code"
             android:textColor="@color/black"
             android:drawableEnd="@drawable/next_icon" />
 

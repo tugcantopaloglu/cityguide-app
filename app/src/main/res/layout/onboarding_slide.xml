@@ -21,8 +21,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/first_slide_title"
+        android:fontFamily="@font/cascadia_code"
+        app:fontFamily="@font/cascadia_code"
         android:textSize="24sp"
-        android:fontFamily="@font/josefin_slab_bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/slider_image" />
@@ -32,9 +33,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/first_slide_desc"
+        android:fontFamily="@font/cascadia_code"
+        app:fontFamily="@font/cascadia_code"
         android:textSize="16sp"
         android:gravity="center"
-        android:fontFamily="@font/josefin_slab_bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/slider_heading" />

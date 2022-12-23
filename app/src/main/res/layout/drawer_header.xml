@@ -9,6 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/slogan_name"
+        android:fontFamily="@font/cascadia_code"
         android:layout_alignParentBottom="true" />
 
     <TextView
@@ -17,12 +18,14 @@
         android:layout_height="wrap_content"
         android:text="@string/app_name"
         android:textSize="24sp"
-        android:layout_above="@+id/menu_slogan" />
+        android:fontFamily="@font/cascadia_code"
+        android:layout_above="@+id/menu_slogan"
+        />
 
     <ImageView
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:src="@drawable/logo"
+        android:src="@drawable/route"
         android:layout_above="@+id/menu_app_name"/>
 
 </RelativeLayout>

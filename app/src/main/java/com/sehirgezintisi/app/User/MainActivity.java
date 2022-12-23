@@ -1,6 +1,7 @@
 package com.sehirgezintisi.app.User;
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -18,6 +19,8 @@ import com.google.android.material.navigation.NavigationView;
 import com.sehirgezintisi.app.Common.LoginSignUp.LoginActivity;
 import com.sehirgezintisi.app.R;
 
+import java.util.Locale;
+
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -34,6 +37,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
@@ -128,13 +133,30 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
             //BURADA ÇALIŞMAYAN FONKSİYONLAR YAPILACAK
             case R.id.nav_share:
-                Toast.makeText(this, "Shared", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Bu fonksiyon henüz işlevsel değil", Toast.LENGTH_SHORT).show();
                 break;
 
-            case R.id.nav_rate_us:
-                Toast.makeText(this, "Rated", Toast.LENGTH_SHORT).show();
+            case R.id.generate_route:
+                Toast.makeText(this, "Bu fonksiyon henüz işlevsel değil", Toast.LENGTH_SHORT).show();
                 break;
-
+            case R.id.add_location_to_route:
+                Toast.makeText(this, "Bu fonksiyon henüz işlevsel değil", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.rent_guide:
+                Toast.makeText(this, "Bu fonksiyon henüz işlevsel değil", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.add_subscripton:
+                Toast.makeText(this, "Bu fonksiyon henüz işlevsel değil", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.terminate_subscription:
+                Toast.makeText(this, "Bu fonksiyon henüz işlevsel değil", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.transport:
+                Toast.makeText(this, "Bu fonksiyon henüz işlevsel değil", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.get_weather:
+                Toast.makeText(this, "Bu fonksiyon henüz işlevsel değil", Toast.LENGTH_SHORT).show();
+                break;
         }
 
         drawerLayout.closeDrawer(GravityCompat.START);

@@ -102,7 +102,7 @@ public class SearchAutocompleteAdapter extends RecyclerView.Adapter<SearchAutoco
 
             FindAutocompletePredictionsRequest predictionsRequest = FindAutocompletePredictionsRequest
                     .builder()
-                    .setCountry("IN")
+                    .setCountry("TUR")
                     .setTypeFilter(TypeFilter.ESTABLISHMENT)
                     .setSessionToken(token)
                     .setQuery(charSequence.toString())

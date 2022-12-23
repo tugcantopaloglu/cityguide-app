@@ -4,21 +4,102 @@
 
     <group android:checkableBehavior="single">
 
-        <item android:id="@+id/nav_explore"
-            android:title="@string/nav_explore"
-            android:icon="@drawable/search_icon"/>
+        <item
+            android:id="@+id/nav_explore"
+            android:icon="@drawable/search_icon"
+            android:title="@string/nav_explore" />
 
     </group>
-
     <item android:title="@string/profile">
 
         <menu>
 
             <group android:checkableBehavior="single">
 
-                <item android:id="@+id/nav_profile"
-                    android:title="@string/profile"
-                    android:icon="@drawable/user_icon"/>
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/user_icon"
+                    android:title="@string/profile" />
+
+            </group>
+
+        </menu>
+
+    </item>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/share">
+
+        <menu>
+
+            <group android:checkableBehavior="none">
+
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/share_icon"
+                    android:title="@string/share" />
+
+                <item
+                    android:id="@+id/nav_rate_us"
+                    android:icon="@drawable/rate_icon"
+                    android:title="@string/rate_us" />
+
+
+            </group>
+
+        </menu>
+
+    </item>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/guide">
+
+        <menu>
+
+            <group android:checkableBehavior="none">
+
+                <item
+                    android:id="@+id/generate_route"
+                    android:icon="@drawable/make_route"
+                    android:title="@string/generate_route" />
+
+                <item
+                    android:id="@+id/add_location_to_route"
+                    android:icon="@drawable/add"
+                    android:title="@string/add_location_to_route" />
+
+                <item
+                    android:id="@+id/rent_guide"
+                    android:icon="@drawable/guide"
+                    android:title="@string/rent_guide" />
+
+
+            </group>
+
+        </menu>
+
+    </item>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/subscription">
+
+        <menu>
+
+            <group android:checkableBehavior="none">
+
+                <item
+                    android:id="@+id/add_subscripton"
+                    android:icon="@drawable/subs"
+                    android:title="@string/add_subscription" />
+
+                <item
+                    android:id="@+id/terminate_subscription"
+                    android:icon="@drawable/close_icon"
+                    android:title="@string/terminate_subscription" />
+
 
             </group>
 
@@ -26,19 +107,19 @@
 
     </item>
 
-    <item android:title="@string/share">
+    <item android:title="@string/city_info">
 
         <menu>
 
             <group android:checkableBehavior="none">
 
-                <item android:id="@+id/nav_share"
-                    android:title="@string/share"
-                    android:icon="@drawable/share_icon"/>
+                <item android:id="@+id/transport"
+                    android:title="@string/transport"
+                    android:icon="@drawable/bus"/>
 
-                <item android:id="@+id/nav_rate_us"
-                    android:title="@string/rate_us"
-                    android:icon="@drawable/rate_icon"/>
+                <item android:id="@+id/get_weather"
+                    android:title="@string/get_weather"
+                    android:icon="@drawable/weather"/>
 
 
             </group>

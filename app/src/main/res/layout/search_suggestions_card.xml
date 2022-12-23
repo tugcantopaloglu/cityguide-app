@@ -12,6 +12,8 @@
         android:background="?attr/selectableItemBackground"
         android:gravity="center_vertical"
         android:text="@string/suggestions"
+        android:fontFamily="@font/cascadia_code"
+        app:fontFamily="@font/cascadia_code"
         android:textSize="14sp"
         android:padding="5dp"
         app:layout_constraintEnd_toEndOf="parent"

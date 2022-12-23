@@ -41,6 +41,8 @@
                 android:paddingStart="20dp"
                 android:paddingEnd="20dp"
                 android:text="@string/search_a_place"
+                android:fontFamily="@font/cascadia_code"
+                app:fontFamily="@font/cascadia_code"
                 android:textColor="@android:color/black"
                 android:textSize="20sp"
                 app:drawableTint="@color/black"
@@ -88,6 +90,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="@string/restaurants"
+                    android:fontFamily="@font/cascadia_code"
+                    app:fontFamily="@font/cascadia_code"
                     android:textColor="@color/black" />
 
             </LinearLayout>
@@ -121,6 +125,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="@string/lodging"
+                    android:fontFamily="@font/cascadia_code"
+                    app:fontFamily="@font/cascadia_code"
                     android:textColor="@color/black" />
 
             </LinearLayout>
@@ -152,6 +158,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="@string/atm"
+                    android:fontFamily="@font/cascadia_code"
+                    app:fontFamily="@font/cascadia_code"
                     android:textColor="@color/black" />
 
             </LinearLayout>
@@ -184,6 +192,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="@string/tourist_attraction"
+                    android:fontFamily="@font/cascadia_code"
+                    app:fontFamily="@font/cascadia_code"
                     android:textColor="@color/black" />
 
             </LinearLayout>

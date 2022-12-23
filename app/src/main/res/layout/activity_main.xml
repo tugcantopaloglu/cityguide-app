@@ -61,7 +61,10 @@
                 android:layout_centerHorizontal="true"
                 android:textColor="@color/black"
                 android:text="@string/app_name"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:fontFamily="@font/cascadia_code"
+                app:fontFamily="@font/cascadia_code
+"/>
         </RelativeLayout>
 
         <FrameLayout

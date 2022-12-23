@@ -41,6 +41,16 @@
     <string name="profile">Profil</string>
     <string name="logout">Çıkış</string>
     <string name="share">Paylaş</string>
+    <string name="guide">Tur İşlemleri</string>
+    <string name="generate_route">Rota Oluştur</string>
+    <string name="add_location_to_route">Rotaya Lokasyon Ekle</string>
+    <string name="rent_guide">Rehber Kirala</string>
+    <string name="subscription">Üyelik İşlemleri</string>
+    <string name="add_subscription">Üye Ol</string>
+    <string name="terminate_subscription">Üyeliği İptal Et</string>
+    <string name="city_info">Şehir Bilgisi</string>
+    <string name="transport">Ulaşım Kartı Al</string>
+    <string name="get_weather">Hava Durumu Bilgisi</string>
     <string name="rate_us">Puanla</string>
     <string name="slogan_name">Turistler için rehber</string>
 
@@ -58,7 +68,7 @@
     <string name="suggestions">Yer</string>
 
     <string name="call_not_available">Uygun değil</string>
-    <string name="travel_default_mode">Yürüyor</string>
+    <string name="travel_default_mode">Yürüme</string>
 
 
 </resources>

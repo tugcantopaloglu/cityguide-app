@@ -67,11 +67,11 @@ public class NearbyPlacesAdapter extends RecyclerView.Adapter<NearbyPlacesAdapte
                     String rat = placeList.get(position).get("rating");
                     holder.ratingBar.setRating(Float.parseFloat(Objects.requireNonNull(rat)));
                     holder.rating.setText(rat);
-                    String s = placeList.get(position).get("user_ratings_total") + " reviews";
+                    String s = placeList.get(position).get("user_ratings_total") + " inceleme";
                     holder.totalRatings.setText(s);
 
                 } else {
-                    String message = "Not rated";
+                    String message = "Oylanmamış";
                     holder.rating.setText(message);
                     holder.ratingBar.setVisibility(View.INVISIBLE);
                     holder.totalRatings.setVisibility(View.INVISIBLE);

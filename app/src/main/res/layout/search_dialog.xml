@@ -30,6 +30,8 @@
             android:layout_height="50dp"
             android:backgroundTint="@color/white"
             android:hint="@string/search"
+            android:fontFamily="@font/cascadia_code"
+            app:fontFamily="@font/cascadia_code"
             android:imeOptions="actionSearch"
             android:singleLine="true"
             app:layout_constraintTop_toTopOf="parent"

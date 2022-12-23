@@ -30,6 +30,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/email"
+            android:fontFamily="@font/cascadia_code"
+            app:fontFamily="@font/cascadia_code"
             android:singleLine="true"/>
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -58,6 +60,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/password"
+            android:fontFamily="@font/cascadia_code"
+            app:fontFamily="@font/cascadia_code"
             android:inputType="textPassword"
             android:singleLine="true"/>
 
@@ -69,6 +73,8 @@
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:text="@string/forget_password"
+        android:fontFamily="@font/cascadia_code"
+        app:fontFamily="@font/cascadia_code"
         android:textAllCaps="false"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
@@ -84,6 +90,8 @@
         android:elevation="2dp"
         android:focusable="true"
         android:text="@string/login"
+        android:fontFamily="@font/cascadia_code"
+        app:fontFamily="@font/cascadia_code"
         android:textColor="@color/black"
         android:theme="@style/loginButtonTheme"
         android:layout_marginBottom="5dp"

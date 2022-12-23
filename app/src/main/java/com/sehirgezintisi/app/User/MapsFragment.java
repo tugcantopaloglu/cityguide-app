@@ -232,9 +232,9 @@ public class MapsFragment extends Fragment implements TextWatcher, View.OnClickL
         clickListeners();
 
         if (isNetworkAvailable()) {
-            Toast.makeText(requireContext(), "Online", Toast.LENGTH_SHORT).show();
+            Toast.makeText(requireContext(), "Lokasyon Çalışıyor", Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(requireContext(), "Offline", Toast.LENGTH_SHORT).show();
+            Toast.makeText(requireContext(), "Lokasyon Çalışmıyor", Toast.LENGTH_SHORT).show();
         }
     }
 
